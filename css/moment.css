@@ -68,7 +68,6 @@
 .words{
     height: auto;
     padding-top: 2%;
-  font-family: cursive;
     font-size: 20px;
     text-align: center;
     justify-content: center;
@@ -78,7 +77,6 @@
 .words h2{
     padding-top: 100px;
     font-size: 40px;
-    font-family: cursive;
 }
 .words p{
     margin-left:12.5%;
