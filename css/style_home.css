@@ -1,0 +1,202 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.NavBarSection {
+    background-color: #6f95b4;
+    height: 100%;
+    width: 100%;
+    border: #f7a072 solid 2px;
+}
+
+.NavBar {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    justify-content: left;
+    padding: 15px;
+}
+
+.NavBar img {
+    margin-left: 20px;
+    width: 80px;
+    height: 70px;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+
+.NavBar ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 10px;
+}
+
+.NavBar ul li {
+    font-size: 1rem;
+    list-style: none;
+    margin-left: 14px;
+    margin-top: 10px;
+    width: 78px;
+    padding: 15px;
+    border: 4px solid black;
+    background-color: #d7c790;
+    border-radius: 10%;
+}
+
+.NavBar ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.NavBar ul li:hover {
+    background-color: #b5e2fa;
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+}
+.intro
+{
+    background-color: black;
+    max-width: 100%;
+    padding: 50px;
+    border: solid black 10px;
+}
+.vid {
+    width: 100%;
+    max-width: 100%;
+    background-color: cornsilk;
+    border: 1rem solid #093684;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.border{
+    width: 90%;
+    max-width: 90%;
+    margin-left: 4%;
+    background-color: black;
+}
+.TV {
+    width:100%;
+    max-width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    border: 10px solid black;
+    background-color: black;
+    position: relative;
+}
+
+.TV video{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+.vid h2{
+  font-family: cursive;
+  font-size: 1.5rem;
+  background-color: cornsilk;
+  text-align: center;
+  padding:25px;
+}
+.cricket{
+   border: solid black 5px;
+   position: relative;
+}
+.cricket::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    background: url(/cricket1.jpg) no-repeat center center/cover;
+    z-index: -1;
+    opacity:0.99;
+}
+.data
+{
+    margin:18% 6%;
+  font-size: 23px;
+  color: white;
+  font-family: cursive;
+}
+.data h2{
+    text-align: center;
+    text-decoration: underline 5px;
+    padding-bottom: 5%;
+}
+.lessons{
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    padding-top:100px;
+    font-size:3rem;
+    text-decoration: underline 5px;
+}
+.photos{
+    padding-top:50px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+    justify-content: space-evenly;
+}
+.item{
+    margin-top:20px;
+    border: solid white 2px;
+    width:80%;
+    height:56.25%;
+    align-items: center;
+}
+.item img{
+    width:100%;
+    height:56.25%;
+    padding:0% 0%;
+}
+.batsman{
+    position: relative;
+}
+
+.batsman::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width:100%;
+    height: 110%;
+    background: url(/batsman.jpg) no-repeat center center/cover;
+    z-index: -1;
+    opacity:0.75;
+}
+.batsman h2{
+    padding-top:8%;
+    font-family: cursive;
+    font-size:30px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline 4px;
+}
+.data2{
+    padding-top: 2%;
+  font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 2%;
+    font-weight: 900;
+}
+.batsman .container h1{
+    font-family: cursive;
+    font-size:30px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+.batsman .container{
+    padding-bottom: 5%;
+}
