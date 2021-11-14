@@ -61,7 +61,7 @@
     position: absolute;
     width:100%;
     height: 100%;
-    background-color: #de00ff;
+    background-color: #fdcd00;
     z-index: -1;
     opacity:.8;
 }
@@ -91,12 +91,13 @@
 .steps{
     border:solid black 5px;
     margin-top: 25px;
+    margin: 25px 50px;
 }
 .information{
     background-color: #ffffff;
 }
 .data{
-    background-color: #f5c4ff;
+    background-color: #c4fff6;
 }
 .data h2{
     text-decoration: underline 5px;
@@ -119,6 +120,11 @@
     position: relative;
 }
 @media only screen and (max-width: 450px) {
+    .steps{
+        border:solid black 5px;
+        margin-top: 25px;
+        margin:25px 0px;
+    }
     .video {
         margin-top: 60px;
         width:88%;

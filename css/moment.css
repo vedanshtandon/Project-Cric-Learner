@@ -82,13 +82,13 @@
     margin-left:12.5%;
     width:75%;
     padding-top: 50px;
-    font-family: cursive;
     font-size: 20px;
     font-weight: 900px;
 }
 .steps{
     border:solid black 5px;
     margin-top: 25px;
+    margin: 25px 50px;
 }
 .information{
     background-color: #ffffff;
@@ -117,6 +117,11 @@
     position: relative;
 }
 @media only screen and (max-width: 450px) {
+    .steps{
+        border:solid black 5px;
+        margin-top: 25px;
+        margin:25px 0px;
+    }
     .video {
         margin-top: 60px;
         width:88%;

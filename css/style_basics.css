@@ -91,6 +91,7 @@
 .steps{
     border:solid black 5px;
     margin-top: 25px;
+    margin: 25px 50px;
 }
 .information{
     background-color: #ffffff;
@@ -119,6 +120,11 @@
     position: relative;
 }
 @media only screen and (max-width: 450px) {
+    .steps{
+        border:solid black 5px;
+        margin-top: 25px;
+        margin:25px 0px;
+    }
     .video {
         margin-top: 60px;
         width:88%;
