@@ -61,14 +61,13 @@
     position: absolute;
     width:100%;
     height: 100%;
-    background-color: #fdcd00;
+    background-color: #79c3fe;
     z-index: -1;
     opacity:.8;
 }
 .words{
     height: auto;
     padding-top: 2%;
-  font-family: cursive;
     font-size: 20px;
     text-align: center;
     justify-content: center;
